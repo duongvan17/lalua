@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/FakeImageDetector_v1/**)",
+      "Read(//d/Downloads/**)",
+      "WebSearch",
+      "Bash(source d:/lalua/env/Scripts/activate)",
+      "Bash(python -c \":*)",
+      "Bash(du -sh d:/lalua/data/*/)",
+      "Bash(echo \"exit: $?\")"
+    ]
+  }
+}
