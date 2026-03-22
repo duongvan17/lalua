@@ -9,7 +9,6 @@ build/
 env/
 
 # Data and runs
-data/
 runs/
 
 # IDE
