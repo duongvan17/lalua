@@ -19,24 +19,11 @@ pip install -r requirements.txt
 
 ## 3. Chuẩn bị dataset
 
-Tải folder `data/final/` từ Google Drive về đặt vào thư mục `data/`.
+Dataset đã có sẵn trong repo tại `data/final/`. Sau khi clone project, data sẽ tự động có.
 
-Cấu trúc dataset:
-
-```
-data/final/
-├── train/
-│   ├── bacterial_leaf_blight/
-│   ├── brown_spot/
-│   └── leaf_blast/
-├── val/
-│   ├── bacterial_leaf_blight/
-│   ├── brown_spot/
-│   └── leaf_blast/
-└── test/
-    ├── bacterial_leaf_blight/
-    ├── brown_spot/
-    └── leaf_blast/
+```bash
+git clone <repo-url>
+cd lalua
 ```
 
 ## 4. Train model
